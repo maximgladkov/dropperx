@@ -32,11 +32,12 @@ class Dropperx extends React.Component {
   handleDrop = files => {
     if (!files[0]) return
 
-    const reader = new FileReader()
     Promise.all(
       files.filter(this.props.filter).map(
         file =>
           new Promise(resolve => {
+            const reader = new FileReader();
+            
             reader.onload = event => {
               file.content = event.target.result
               resolve(file)

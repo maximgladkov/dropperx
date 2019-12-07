@@ -1,5 +1,5 @@
 {
-  "name": "dropperx",
+  "name": "maximgladkov-dropperx",
   "version": "1.0.1",
   "description": "File drop target",
   "main": "dist/index.js",
@@ -8,8 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle --jsx React.createElement",
-    "watch": "microbundle --jsx React.createElement watch",
-    "install": "npx microbundle@next --jsx React.createElement"
+    "watch": "microbundle --jsx React.createElement watch"
   },
   "keywords": [
     "dnd",

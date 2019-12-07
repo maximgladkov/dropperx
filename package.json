@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle --jsx React.createElement",
     "watch": "microbundle --jsx React.createElement watch",
-    "install": "npx microbundle --jsx React.createElement"
+    "install": "npx microbundle@next --jsx React.createElement"
   },
   "keywords": [
     "dnd",

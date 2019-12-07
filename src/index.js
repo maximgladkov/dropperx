@@ -24,9 +24,13 @@ function readAs(file) {
 }
 
 class Dropperx extends React.Component {
-  state = {
-    lastContent: null,
-    history: []
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      lastContent: null,
+      history: []
+    }
   }
 
   handleDrop = files => {

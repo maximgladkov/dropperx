@@ -20,13 +20,6 @@
     "dropper",
     "jsx"
   ],
-  "babel": {
-    "plugins": [
-      [
-        "transform-react-jsx"
-      ]
-    ]
-  },
   "author": "mfix22 <mrfix84@gmail.com> (http://mfix22.github.io/)",
   "license": "MIT",
   "dependencies": {

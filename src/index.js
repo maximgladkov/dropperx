@@ -31,9 +31,11 @@ class Dropperx extends React.Component {
       lastContent: null,
       history: []
     }
+    
+    this.handleDrop = this.handleDrop.bind(this);
   }
 
-  handleDrop = files => {
+  handleDrop(files) {
     if (!files[0]) return
 
     Promise.all(
